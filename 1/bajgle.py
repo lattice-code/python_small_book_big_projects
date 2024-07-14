@@ -29,7 +29,7 @@ Bajgle				None of numbers is right.
 
 	while True :
 		secretNum = getSecretNum()
-		print('I have some number in my mind')
+        print(' ')
 		print('You have {} tries to guess.'.format(MAX_GUESSES))
 		
 		numGuesses = 1
@@ -49,7 +49,7 @@ Bajgle				None of numbers is right.
 				print('Already used all your tries.')
 				print('The number was : {}'.format(secretNum))
 				
-		print('Would you liek to play again? (y/n)')
+		print('Would you like to play again? (y/n)')
 		if not input('> ').lower().startswith('y'):
 			break
 		print('Thanks for the game.')
