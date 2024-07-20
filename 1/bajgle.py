@@ -29,7 +29,6 @@ Bajgle				None of numbers is right.
 
 	while True :
 		secretNum = getSecretNum()
-        print(' ')
 		print('You have {} tries to guess.'.format(MAX_GUESSES))
 		
 		numGuesses = 1
