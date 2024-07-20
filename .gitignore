@@ -1,6 +1,7 @@
 #ignore all those listed below
 
 #files
+*.pyc 
 
 #dirs
 book/
